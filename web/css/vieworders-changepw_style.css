@@ -1,0 +1,221 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 11, 21, 3:18:06 PM
+    Author     : Matthew Artillero
+*/
+body {
+    background-color: #FEF9C2 !important;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 10%;
+}
+
+.site-content {
+    flex: 1;
+}
+
+.credentials {
+    border-radius: 25px;
+    border: 2px solid #808080;
+    width: 200px;
+    height: 35px;  
+    outline: none;
+}
+
+.profile-form .row-credentials {
+    margin-left: 30%;
+}
+
+.profile-form {
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.credentials-label {
+    font-weight: bold;
+}
+
+.textedit{
+    color: #00bfff;
+}
+
+.editprofile-btn, .editpass-btn, .savechanges-btn, .cancel-btn {
+    border-radius: 25px;
+    background-color:#ff9900;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: white;
+}
+
+.cancel-btn {
+    border: 2px solid #808080;
+    margin-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cancel-btn:hover {
+    color: white;
+}
+
+/* Label */
+h2 {
+    color:#ff9900;
+}
+
+strong {
+    font-family: 'Chivo', sans-serif;
+    color: #ff9900;
+    margin-left: 17%;
+}
+
+/* Customer Order */
+.order-table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    background-color:#ffffff;
+}
+
+
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+.add-book {
+    border-radius: 10px;
+    background-color:#ff9900;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: white;
+}
+
+.edit {
+    border-radius: 10px;
+    background-color:#3CB371;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: white;
+}
+
+.delete {
+    border-radius: 10px;
+    background-color:#FF0000;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: white;
+}
+
+@media screen and (max-width: 770px) {
+    .profile-form .row-credentials {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .site-container {
+        padding-top: 10%;
+    }
+
+    .profile-form .row-credentials {
+        margin-left: 13%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .site-container {
+        padding-top: 10%;
+    }
+
+    .profile-form .row-credentials {
+        margin-left: -5%;
+        font-size: 10px;
+    }
+
+    .savechanges-btn, .cancel-btn {
+        font-size: 15px;
+        margin-top: 10%;
+    }
+
+
+}
+
+@media screen and (max-width: 411px) {
+    .site-container {
+        padding-top: 10%;
+    }
+
+    .profile-form .row-credentials {
+        margin-left: -10%;
+    }
+
+    .credentials-label {
+        font-size: 10px;
+    }
+
+    .savechanges-btn {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .site-container {
+        padding-top: 10%;
+    }
+
+    .profile-form .row-credentials {
+        margin-left: -10%;
+    }
+
+    .profile-form .credentials {
+        font-size: 10px;
+    }
+
+    .credentials-label {
+        font-size: 10px;
+    }
+
+    .savechanges-btn {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .site-container {
+        margin-top: 15%;
+    }
+
+    .profile-form .row-credentials {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .profile-form .row-credentials {
+        margin-left: -25%;
+    }
+
+    .profile-form .credentials {
+        width: 100%;
+    }
+}
+

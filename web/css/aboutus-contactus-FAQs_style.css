@@ -1,0 +1,322 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 12, 21, 1:30:38 PM
+    Author     : asus
+*/
+body {
+    background-color: #FFF9C4 !important;
+}
+
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 3%;
+}
+
+.site-content {
+    flex: 1;
+}
+
+.container-sm {
+    background-color: #FFECB3;
+    margin-top: 6%;
+    border-radius: 10px;
+    width: 60% !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.label {
+    color: #E77C38;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header {
+    margin-top: -4%;
+    margin-bottom: -2%;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E77C38;
+    border-radius: 10px;
+    padding: 25px;
+    color: #FFECB3;
+}
+
+.container-info {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #E77C38;
+    border-radius: 10px;
+    color: #FFECB3;
+}
+
+.FAQs-container {
+    overflow: auto;
+    height: 470px;
+}
+
+.FAQs-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.FAQs-container::-webkit-scrollbar-thumb {
+    background-color: #FFCC80;
+    border-radius: 20px;
+}
+
+.question-icon, .question {
+    color: #FFCC80;
+    background-color: #E77C38;
+    padding-top: 5px;
+}
+
+.answer-icon, .answer {
+    color: #E77C38;
+    background-color: #FFCC80;
+    padding-top: 5px;
+}
+
+.question-icon {
+    border-radius: 10px 0px 0px 0px;
+}
+
+.question {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.answer-icon {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.answer {
+    border-radius: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 414px) {
+    /* About us */
+    .container-sm {
+        margin-top: 30%;
+        width: 90% !important;
+        padding-bottom: 10%;
+    }
+
+    .label {
+        text-align: center;
+    }
+
+    .description {
+        font-size: 15px;
+        margin: 5%;
+    }
+
+    /* Contact us */
+    h5 {
+        font-size: 15px !important;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 20px !important;
+        height: 20px;
+        width: 40px;
+    }
+
+    .contact-info {
+        margin-bottom: -5%;
+    }
+
+    /* FAQs */
+    .question-icon {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .question, .answer-icon {
+        border-radius: 0px;
+    }
+
+    .answer {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* About us */
+    .container-sm {
+        margin-top: 20%;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* About us */
+    .container-sm {
+        margin-top: 20%;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    /* About us */
+    .container-sm {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    /* Contact us */
+    h5 {
+        font-size: 13px !important;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 20px !important;
+        height: 20px;
+        width: 40px;
+    }
+
+    .contact-info {
+        margin-bottom: -5%;
+    }
+
+    /* FAQs */
+    .question-icon {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .question, .answer-icon {
+        border-radius: 0px;
+    }
+
+    .answer {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    /* Contact us */
+    h5 {
+        font-size: 15px !important;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 20px !important;
+        height: 15px;
+        width: 30px;
+    }
+
+    .contact-info {
+        margin-bottom: -3%;
+    }
+
+    /* FAQs */
+    .question-icon {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .question, .answer-icon {
+        border-radius: 0px;
+    }
+
+    .answer {
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    /* Footer */
+    .FAQs-container {
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* About us */
+    .container-sm {
+        margin-top: 20%;
+    }
+
+    /* Contact us */
+    .contact-info {
+        margin-bottom: -10%;
+    }
+
+    /* Footer */
+    .FAQs-container {
+        padding-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    /* Contact us */
+    h5 {
+        font-size: 15px !important;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 15px !important;
+        height: 15px;
+        width: 30px;
+    }
+
+    .contact-info {
+        margin-bottom: -10%;
+    }
+
+    /* FAQs */
+    .FAQs-container {
+        padding-bottom: 20%;
+    }
+
+    .question-icon {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .question, .answer-icon {
+        border-radius: 0px;
+    }
+
+    .answer {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    /* About us */
+    .description {
+        font-size: 10px;
+    }
+
+    /* Contact us */
+    h5 {
+        font-size: 10px !important;
+    }
+
+    .icon {
+        font-size: 15px !important;
+        height: 20px;
+        width: 40px;
+    }
+
+    .contact-info {
+        margin-bottom: -13%;
+    }
+
+    .label {
+        font-size: 25px !important;
+    }
+    
+    /* Footer */
+    .FAQs-container {
+        padding-bottom: 50%;
+    }
+}

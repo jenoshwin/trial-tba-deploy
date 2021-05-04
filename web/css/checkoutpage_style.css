@@ -1,0 +1,128 @@
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex: 1;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.checkbox {
+    padding-right: 10px;
+}
+disabled{
+       background-color:gray;     
+}
+.cart0 { 
+    border-right:hidden; 
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    padding-left: 10px;
+} 
+.cart1 { 
+    border-right:hidden; 
+    background-color: white;
+    color: #E77C38;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 10px;
+} 
+.item-box-blog0 {
+    position: relative;
+    background-color: #ffecb3;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 12px;
+}
+
+.item-box-blog1 {
+    position: relative;
+    background-color: #ffecb3;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 12px;
+}
+
+.item-box-blog-image {
+    position: relative;
+    
+}
+.rectangle {
+    width: 135px;
+    height: 26px;
+    left: 1192px;
+    top: 642px;
+    background-color: white;
+    text-align: center;
+    color: #E77C38;
+    bottom: 0px;
+
+}
+.rectangle2 {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #ffa726;
+    border-radius: 15px;
+    color: white;
+}
+
+.tab { 
+    border-collapse:separate; 
+    border-spacing:0 15px; 
+    width: 100%;
+} 
+
+.container .cancel-btn {
+    width: 30%;
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    outline: none !important;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    background-color: darkorange;;
+    transition: all .5s ease-in-out;
+    margin-right: 30px;
+}
+
+.container .cancel-btn:hover {
+    background-color: #FEA726;
+    color: white;
+}
+
+.delivery-amount, .total-amount {
+    text-align: right;
+}
+
+.total-amount {
+    margin-top: 30px;
+}
+
+#delivery, #total {
+    background-color: white;
+    padding: 10px;
+    color: #E77C38;
+    font-weight: bold;
+}
+
+.delete {
+    border-radius: 10px;
+    background-color:#FF0000;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: white;
+}

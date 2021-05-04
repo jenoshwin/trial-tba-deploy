@@ -1,0 +1,58 @@
+/* 
+    Author     : Jen
+*/
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+h2{
+    color: #F24E1E;
+    font-family: 'Offside', cursive;
+    text-align: center;
+}
+.col-6{
+    background-color: #FFCC80;
+}
+
+.col-md-6-first{
+    box-model: border-box;
+    border: 3px solid transparent;
+    background-clip:padding-box;
+    background-color: #FFCC80;
+    padding: 0 8px 0 8px;
+    margin: 0 8px 0 8px;
+}
+.col-md-6-second{
+    box-model: border-box;
+    border: 3px solid transparent;
+    background-clip:padding-box;
+    background-color: #FFCC80;
+    padding: 0 8px 0 8px;
+    margin: 0 8px 0 8px;
+}
+
+h6{
+    font-family: 'Offside', cursive;
+    text-align: center;
+}
+b{
+    font-family: 'Offside', cursive;
+}
+.col align-self-start{
+        font-family: 'Montserrat', sans-serif;
+}
+.col align-self-end{
+        font-family: 'Montserrat', sans-serif;
+}
+
+.text-note {
+    color: #F24E1E;
+    text-align: center;
+}
+
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex: 1;
+}

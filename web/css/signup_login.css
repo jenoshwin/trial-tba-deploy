@@ -1,0 +1,408 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Stick footer to bottom of page*/
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh; /*edited*/ 
+    margin-top: 8%; /*edited*/
+}
+
+.site-content {
+    flex: 1;
+}
+/*Stick footer to bottom of page*/
+
+.delete {
+    border-radius: 10px;
+    background-color:#FF0000;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body {
+    background-color: #FEF9C2 !important;
+}
+disabled{
+       background-color:gray;     
+}
+
+/*Login Form*/
+#grad1 {
+    width: 100%; /*edited*/
+}
+
+/*Sign Up Form - Part 1*/
+#grad2 {
+    width: 100%; /*edited*/
+}
+
+/*Sign Up Form - Part 2*/
+#grad3 {
+    width: 80%; 
+}
+
+.asterisk-symbol {
+    color: red;
+}
+
+.create-account-text {
+    color: #FEA726;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.text-center a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.fields-b {
+    margin-top: 5%;
+}
+
+.lbl-txt {
+    font-size: 14px;
+}
+
+#defaultRegisterFormFirstName, #defaultRegisterFormLastName, 
+#defaultRegisterFormEmail, #defaultRegisterFormPassword, #defaultRegisterConfirmPassword,
+#defaultRegisterFormAddress, #defaultRegisterFormOptional, 
+#defaultRegisterFormPostalCode, #defaultRegisterFormCity, #region {
+    font-size: 13px;
+}
+
+.sign-up-form, .login-form {
+    border-radius: 10px;
+}
+
+.sign-up-btn {
+    width: 30%;
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    outline: none !important;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    background-color: darkorange;
+    margin: 0;
+    transition: all .5s ease-in-out;
+}
+
+.sign-up-btn:hover {
+    background: #FEA726;
+}
+
+/* Customer Profile - Edit Profile */
+.savechanges-btn, .changepw-btn {
+    width: 40%;
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    outline: none !important;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    background-color: darkorange;
+    margin-right: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.savechanges-btn:hover, .changepw-btn:hover {
+    background: #FEA726;
+}
+
+.credentials .edit-btn {
+    font-size: 10px;
+    opacity: 0.8;
+    display: inline-block;
+    color: #fa7a2b;
+}
+
+.credentials .edit-btn:hover {
+    color: blue;
+    transition: all .5s ease-in-out;
+}
+
+.credentials .edit-form {
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
+
+#grad4 {
+    width: 80%;
+}
+/* Customer Profile - Edit Profile */
+
+.sign-up-btn2 {
+    width: 30%;
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    outline: none !important;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    background-color: darkorange;
+    transition: all .5s ease-in-out;
+    margin-right: 30px;
+}
+
+.sign-up-btn2:hover {
+    background: #FEA726;
+}
+
+.text-center {
+    margin-bottom: -3%;
+}
+
+.text-center .text2 {
+    font-size: 10px;
+    opacity: 0.8;
+    display: block;
+    color: #fa7a2b;
+}
+
+/* Forgot Password */
+.credentials .text2 {
+    font-size: 10px;
+    opacity: 0.8;
+    display: block;
+    color: #fa7a2b;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    margin-top: -2%;
+    margin-left: 10px;
+    margin-bottom: 5%;
+}
+
+.credentials .text2:hover {
+    color: darkorange;
+}
+/* Forgot Password */
+
+.text-center .text2 a {
+    text-decoration: none;
+    color: #ff924f;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+
+.text-center .text2 a:hover {
+    color: #E77C38;
+}
+
+/*.login-form .text3 {
+    font-size: 10px;
+    opacity: 0.8;
+    display: block;
+    color: #fa7a2b;
+    margin-top: -4%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    text-decoration: none;
+    color: #ff924f;
+    transition: all .5s ease-in-out;
+}
+
+.login-form .text3:hover {
+    color: #E77C38;
+}*/
+
+/* Note in Request Form */
+.text-center .text4 {
+    font-size: 10px;
+    opacity: 0.8;
+    display: block;
+    color: #fa7a2b;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text-center .text4 a {
+    text-decoration: none;
+    color: #ff924f;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+
+.text-center .text4 a:hover {
+    color: #E77C38;
+}
+/* Note in Request Form */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    magrin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 1300px) {
+    .site-container {
+        margin-top: 10%;
+    }
+    
+    .savechanges-btn, .changepw-btn {
+        font-size: 10px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container .lbl-txt {
+        font-size: 10px;
+    }
+
+    .create-account-text {
+        font-size: 30px;
+    }
+
+    .sign-up-btn {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .text-center .text2, .login-form .text3 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .site-container {
+        margin-top: 10%;
+    }
+    
+    .container .lbl-txt {
+        font-size: 7px;
+    }
+
+    .create-account-text {
+        font-size: 20px;
+    }
+
+    .sign-up-btn {
+        width: 70%;
+        font-size: 10px;
+    }
+
+    .text-center .text2, .login-form .text3 {
+        font-size: 7px;
+    }
+    
+    .savechanges-btn, .changepw-btn {
+        font-size: 10px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .site-container {
+        margin-top: 20%;
+    }
+    
+    .container .lbl-txt {
+        font-size: 9px;
+    }
+
+    .create-account-text {
+        font-size: 20px;
+    }
+
+    .sign-up-btn {
+        width: 60%;
+        font-size: 13px;
+    }
+
+    .text-center .text2, .login-form .text3 {
+        font-size: 7px;
+        margin-bottom: -5%;
+    }
+    
+    .savechanges-btn, .changepw-btn {
+        font-size: 10px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .site-container {
+        margin-top: 20%;
+    }
+    
+    .container .lbl-txt {
+        font-size: 12px;
+    }
+
+    .create-account-text {
+        font-size: 30px;
+    }
+
+    .sign-up-btn {
+        width: 70%;
+        font-size: 15px;
+    }
+
+    .text-center .text2, .login-form .text3 {
+        font-size: 10px;
+    }
+    
+    .savechanges-btn, .changepw-btn {
+        font-size: 10px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .site-container {
+        margin-top: 20%;
+    }
+    
+    .container-fluid .lbl-txt {
+        font-size: 11px;
+    }
+
+    .create-account-text {
+        font-size: 25px;
+    }
+
+    .sign-up-btn {
+        font-size: 10px;
+    }
+
+    .text-center .text2, .login-form .text3 {
+        font-size: 10px;
+    }
+    
+    .savechanges-btn, .changepw-btn {
+        font-size: 10px;
+        width: 70%;
+    }
+}
+

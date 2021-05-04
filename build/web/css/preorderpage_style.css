@@ -1,0 +1,138 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    justify-content: center;
+}
+
+.cta-100 {
+    margin-top: 100px;
+    padding-left: 8%;
+    padding-top: 7%;
+}
+
+.item-box-blog {
+    position: relative;
+    background-color: white;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 12px;
+    width: 600px;
+    height: 400px;
+
+}
+.item-box-blog1 {
+    position: relative;
+    background-color: #ffecb3;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 12px;
+    height: 500px;
+}
+
+
+.btn1{
+    background-color:white;
+    border-color: black;
+}
+
+.item-box-blog-image0 {
+    position: relative;
+    text-align: center;
+}
+
+body {
+    background-color: #FFF9C4 !important;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    z-index: 1;
+}
+
+.cont .holder {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.cont1 {
+    flex-direction: column;
+    height: 100vh;
+
+}
+.cont1 .btn-holder1 {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.rectangle {
+    width: 135px;
+    height: 26px;
+    left: 1192px;
+    top: 642px;
+    background-color: white;
+    text-align: center;
+    color: #E77C38;
+    bottom: 0px;
+
+}
+.rectangle0 {
+    width: 168px;
+    height: 42px;
+    left: 799px;
+    background: #FFD54F;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #E77C38;
+}
+
+.rectangle1 {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center; 
+    background-color: #ffa726;
+    border-radius: 8px;
+    color: white;
+}
+
+.rectangle2 {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #ffa726;
+    border-radius: 15px;
+    color: white;
+}
+
+input[type="text"]
+    {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+    }
+ 
+    .vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

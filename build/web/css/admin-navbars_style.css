@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 24, 21, 11:11:21 PM
+    Author     : asus
+*/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*.main-content {
+    margin-left: 190px;
+}*/
+
+/* Top nav bar */
+.navbar {
+    background-color: white;
+    box-shadow: 0 5px 2px -2px #F5F2F2;
+}
+
+.navbar .admin-user .admin-icon {
+    display: inline-block;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+.navbar .admin-user .admin-icon .account-profile-icon {
+    color: #FCBD18;
+    text-decoration: none;
+    transition: .35s ease-in-out;
+}
+
+.navbar .admin-user .admin-icon .account-profile-icon:hover {
+    color: #E77C38;
+    text-decoration: none;
+}
+
+.navbar .admin-user .admin-icon .dropdown-menu {
+    margin-right: 10px;
+}
+
+.navbar .admin-user .admin-icon .dropdown-menu .dropdown-item:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+/* Top nav bar */
+
+/* Side menu */
+.openbtn {
+    background-color: #E77C38;
+    outline-color: #FFF9C4;
+}
+
+.openbtn .fa-bars {
+    color: #fff; 
+    font-size: 28px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E77C38;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.sidebar .sidenav-link {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin-top: 20%;
+    transition: 0.5s;
+}
+
+.sidebar .sidenav-link:hover {
+    color: #FFCC80;
+    font-size: 21px;
+    text-shadow: 2px 2px 5px #E77C38;
+}
+
+.sidebar .sidenav-link .sidenav-icon {
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.sidebar .thebookamigalogo {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.sidebar .line {
+    width: 80%;
+    background-color: #C4C4C4;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media (max-width: 375px) {
+    .admin-greet {
+        font-size: 11px;
+    }
+    
+    #main {
+        width: 100%;
+    }
+}
+/* Side menu */

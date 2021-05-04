@@ -1,0 +1,74 @@
+.sign-up-btn {
+    width: 20%;
+    height: 37px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    background-color: darkorange;
+    transition: all .5s ease-in-out;
+    text-align: center;
+    float: right;
+    color:#FFF9C4; 
+    background-color:#E77C38; 
+    border-radius: 10px;
+}
+@media (max-width: 400px) {
+
+    .container {
+        background-color: white;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.headerbook {
+    background-color: #f6eeee;
+    height: 78px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -1px;
+}
+
+.txtedit {
+    color:#E77C38;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-weight: bold;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+@media (max-width: 991px) {
+    .sign-up-btn {
+        width: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    .sign-up-btn {
+        width: 40%;
+        margin-right: 20px;
+    }
+    
+    .txtbox-col {
+        margin-right: 70px;
+    }
+    
+    .txtedit {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .headerbook {
+        height: 110px;
+    }
+}
